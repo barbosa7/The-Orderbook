@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+streamlit
+websockets
+requests
+python-jwt
+numpy==1.24.3
+pandas==2.0.3
+pyarrow==12.0.1
+psutil==5.9.6
+PyJWT==2.8.0 

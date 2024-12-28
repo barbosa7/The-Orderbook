@@ -1,0 +1,46 @@
+.orderbook {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.orderbook-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.orderbook-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.orders-list, .recent-trades {
+    background: #1a1a1a;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.order-row, .trade-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    padding: 5px;
+    border-bottom: 1px solid #333;
+}
+
+.sell-orders .order-row {
+    color: #ff4444;
+}
+
+.buy-orders .order-row {
+    color: #44ff44;
+}
+
+.recent-trades {
+    grid-column: 1 / -1;
+}
+
+.trade-row {
+    color: #ffffff;
+} 
